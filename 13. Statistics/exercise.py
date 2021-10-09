@@ -1,9 +1,9 @@
-x, n = 0.0, 0
+from matplotlib import pyplot
+get_ipython().run_line_magic('matplotlib', 'inline')
 
-for number_of_steps in data.steps:
-    x += number_of_steps
+#Import rcParams to set font styles
+from matplotlib import rcParams
 
-n = len(data.steps)
-
-mean = x / n
-mean
+#Set font style and size 
+rcParams['font.family'] = 'serif'
+rcParams['font.size'] = 16
