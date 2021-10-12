@@ -16,9 +16,10 @@ driver.create_options()
 driver.minimize_window()
 driver.get(page)
 sleep(1)
-
-title = driver.find_elements_by_xpath('//td[@class="bookTitle"]/a')
+all = []
+title = driver.find_elements_by_xpath('//div[@id="all_votes"]/table/tbody/tr')
 for i in title:
     print(i.text)
-
+    all.append(i)
+    print(all)
 
