@@ -197,7 +197,7 @@ def scraper(url_path):
     return data
 import pandas as pd
 
-data = scraper(urls[400:500])
+data = scraper(urls[100:400])
 df = pd.DataFrame(data,dtype=object)
-df.to_csv('sample_books_sohan.csv')
+df.to_csv('sample_books_sohan(100-400).csv')
 
