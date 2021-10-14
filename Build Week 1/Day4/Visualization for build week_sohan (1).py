@@ -130,10 +130,6 @@ df2
 
 
 
-
-# In[159]:
-
-
 column_names = ['Unnamed: 0','title','author','Reviews','Total_ratings','Average_rating','num_pages','publish_year','first_published','series','genres','Awards','url']
 
 df3 = df2.reindex(columns=column_names)
