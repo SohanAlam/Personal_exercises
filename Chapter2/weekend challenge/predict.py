@@ -1,4 +1,4 @@
-# import libraries for cmd
+
 from os import error
 import data_handler as dh
 import numpy as np
