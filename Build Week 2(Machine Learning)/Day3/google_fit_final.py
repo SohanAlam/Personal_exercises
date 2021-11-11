@@ -4,15 +4,14 @@ import pandas as pd
 from catboost import CatBoostClassifier
 from lightgbm import LGBMClassifier
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, AdaBoostClassifier, \
-    GradientBoostingClassifier, HistGradientBoostingClassifier
+from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, AdaBoostClassifier
 from sklearn import metrics, model_selection
 import itertools
 
 from sklearn.tree import DecisionTreeClassifier
 from xgboost import XGBClassifier
 
-dataset = pd.read_csv('./dataset_halfSecondWindow.csv')
+dataset = pd.read_csv('dataset_halfSecondWindow.csv')
 dataset = dataset.iloc[:, 5:]
 for name,col in zip(dataset.columns,dataset.isnull().sum()/dataset.shape[0]):
     if col>0.7:
