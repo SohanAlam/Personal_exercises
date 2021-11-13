@@ -82,7 +82,7 @@ def main():
                 st.markdown("<h6 style=' text-align: right;color: red;'>Select the appropriate height in cm</h1>",unsafe_allow_html=True)
             
 
-    # to push the proceed button down
+    # to push the proceed drop down
         col2.write('\n')
         col2.write('\n')
         col2.write('\n')
