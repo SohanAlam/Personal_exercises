@@ -6,7 +6,7 @@ import csv
 
 
 def main():
-    #Logo and page name
+    #Logo and page
 
     img = Image.open('Google_Fit_icon.jpg')
     st.set_page_config(page_title='Google Fit',page_icon=img,layout="centered")
