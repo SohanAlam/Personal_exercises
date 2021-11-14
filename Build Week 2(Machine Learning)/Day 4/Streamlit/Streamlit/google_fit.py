@@ -347,7 +347,6 @@ def main():
     # timeinmins = ((hrs*60)+mins)
 
 
-    # if(st.sidebar.button('Calculate Time')):
         
     #     # print time in mins
     #     st.sidebar.markdown('{} mins'.format(round(timeinmins)))
