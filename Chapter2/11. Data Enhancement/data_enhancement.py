@@ -34,7 +34,7 @@ np.random.seed(0)
 #print(target.shape)
 #print(data.shape)
 
-#Take a look at nulls 0 nulls
+
 #print(target.isnull().sum())
 #print(data.isnull().sum())
 
