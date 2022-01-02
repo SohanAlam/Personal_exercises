@@ -30,7 +30,7 @@ np.random.seed(0)
 #target = data['cnt']
 #data = data.drop(['cnt'], axis=1)
 
-#Print data shape
+
 #print(target.shape)
 #print(data.shape)
 
