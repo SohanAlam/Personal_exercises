@@ -31,8 +31,6 @@ np.random.seed(0)
 #data = data.drop(['cnt'], axis=1)
 
 
-#print(target.shape)
-#print(data.shape)
 
 
 #print(target.isnull().sum())
