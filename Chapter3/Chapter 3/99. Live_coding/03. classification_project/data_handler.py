@@ -23,6 +23,6 @@ class DataHandler:
 
 # print(loader.something)
 
-# from sklearn.model_selection import train_test_split
+t
 
 # xtr, xte, ytr, yte = train_test_split(X, y, train_size=.7)
