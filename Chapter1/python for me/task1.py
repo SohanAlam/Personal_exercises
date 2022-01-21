@@ -1,4 +1,4 @@
-array1 = {30}
+array1 = {30,20,50,33}
 
 def task1(array1):
     
