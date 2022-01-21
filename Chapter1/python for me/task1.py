@@ -1,20 +1,17 @@
-array1 = {30,20,50,33}
 
+
+from numpy import array
+
+array1 = [1,1,1,2,2,2,3,3,3]
 def task1(array1):
     
     for num in array1:
         if num % 3 == 0:
                 print( "Strive")
+        elif num % 5 == 0:
+            print( "School ")
+        elif num % 3 == 0  and  num % 5==0:
+            print( "strive School ")
         else:
-            pass
-        if num % 5 == 0:
-                print( "School ")
-        else:
-            pass
-
-        if num % 3 == 0  and  num % 5==0:
-                    print( "strive School ")
-        else:
-            pass
-
+            print(num)
 task1(array1)
